@@ -19,27 +19,27 @@ async function checkWeather(city){
   console.log(data.current.condition.text)
   if(data.current.condition.text == "Clear")
   {
-    weatherIcon.src = "weather-app-img/images/clear.png"
+    weatherIcon.src = "clear.png"
   }
   else if(data.current.condition.text == "Cloud")
   {
-    weatherIcon.src = "weather-app-img/images/clouds.png"
+    weatherIcon.src = "clouds.png"
   }
   else if(data.current.condition.text == "Mist")
   {
-    weatherIcon.src = "weather-app-img/images/mist.png"
+    weatherIcon.src = "mist.png"
   }
   else if(data.current.condition.text == "Snow")
   {
-    weatherIcon.src = "weather-app-img/images/snow.png"
+    weatherIcon.src = "snow.png"
   }
   else if(data.current.condition.text == "Rain")
   {
-    weatherIcon.src = "weather-app-img/images/rain.png"
+    weatherIcon.src = "rain.png"
   }
   else if(data.current.condition.text == "Drizzle")
   {
-    weatherIcon.src = "weather-app-img/images/drizzle.png"
+    weatherIcon.src = "drizzle.png"
   }
 
 
